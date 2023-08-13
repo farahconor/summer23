@@ -6,6 +6,8 @@ This documentation is split up into three sections: Tools, Website, and BCG List
 
 ## Tools
 
+The file structure within the tools folder and explanation of the tools is as follows:
+
 - cluster_pointers
     - cluster_pointers.ipynb: a jupyter notebook that creates an html table with the name of each cluster, its coordinates and redshift, and whether or not it has global properties, profiles, morphology, and in ACCEPT1
     - cluster_pointers.html: the outputed html table created from cluster_pointers.ipynb
