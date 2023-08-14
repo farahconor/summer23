@@ -63,7 +63,8 @@ BCGs
  ┣ bcg_coords_compare
  ┃ ┣ bcg_coords_compare.ipynb: a jupyter notebook that calculates the angular separation and redshift difference for each BCG and creates a table
  ┃ ┗ bcg_coords_compare.csv: the saved table produced from the script above, including cluster name, angular separation, z difference, and k0
- ┗ full_BCG_list.xlsx: the full list of BCGs, saved as an excel file
+ ┣ full_BCG_list.xlsx: the full list of BCGs, saved as an excel file
+ ┗ BCG_bibtex.txt: all bibtex citations from the full_BCG_list.xlsx
  ```
 
  ## Website
