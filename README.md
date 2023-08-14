@@ -41,12 +41,12 @@ tools
 The work on cleaning up the BCG list primarily consisted of classifying each BCG based on the outline below, fixing the citations for some of the clusters, updating entries for some of the clusters, and fixing some miscellaneous issues such as incorrectely listed coordinates. Within the final BCG list ('full_BCG_list.xlsx'), entries that were updated have red text.
 
 Classification System:
-1 = reasonably certain BCG/s with spec z
-2 = good candidate BCG/s with phot z, needs follow-up spec z
-3 = BCG strong candidate based on appearance and color (e.g. HST imaging), but needs follow up spec z
-4 = ambiguous BCG, multiple candidates, 1-2 listed here, may need better imaging before spec z
-5 = no candidates for BCG very ambiguous, no coordinates to list
-For clusters with more than one BCG, an asterisk was added after the number, i.e. 1*
+1 = reasonably certain BCG/s with spec z  
+2 = good candidate BCG/s with phot z, needs follow-up spec z  
+3 = BCG strong candidate based on appearance and color (e.g. HST imaging), but needs follow up spec z  
+4 = ambiguous BCG, multiple candidates, 1-2 listed here, may need better imaging before spec z  
+5 = no candidates for BCG very ambiguous, no coordinates to list  
+For clusters with more than one BCG, an asterisk was added after the number, i.e. 1*  
 Some clusters have an 'x' instead of a number, as these are currently awaiting review from Professor Donahue
 
 In addition to fixing this list, I have performed some rudimentary. The file 'bcg_coords_compare.csv' includes the angular separation of each BCG from the cluster center as well as the difference in redshift. With this I produced a graph of angular separation versus entropy for clusters with entropy profiles:
