@@ -6,6 +6,11 @@ This documentation is split up into three sections: Tools, Website, and BCG List
 
 ## Tools
 
+As of now, there are three main tools: 
+"figureset_maker.ipynb", a jupyter notebook that is used to create an AAS figureset for each cluster; 
+"cluster_pointers.ipynb", a jupyter notebook that creates an html table with the name of each cluster, its coordinates and redshift, and whether or not it has global properties, profiles, morphology, and in ACCEPT1, this is used as a sort of index page for the ACCEPT2 website; 
+"table_generate.ipynb", a jupyter notebook that takes a csv and returns both an HTML and MRT table. usage documentation is contained within the notebook
+
 The file structure within the tools folder and explanation of the tools is as follows:
 
 ```
@@ -60,3 +65,7 @@ BCGs
  ┃ ┗ bcg_coords_compare.csv: the saved table produced from the script above, including cluster name, angular separation, z difference, and k0
  ┗ full_BCG_list.xlsx: the full list of BCGs, saved as an excel file
  ```
+
+ ## Website
+
+ As of now, the website consists of a MC2 homepage with a list of projects which right now lists ACCEPT1 (which is just a link to the old accept website) and ACCEPT2. ACCEPT2 is then stored entirely within a folder, which can allow you to add additonal projects to the MC2 site without having them interfere. ACCEPT2 then has it's own homepage (I still need to add information about the project). There is then a page called "Cluster Index" which includes a list of each cluster, its coordinates, and whether or not it has global properties, a profile, morphology, and in ACCEPT1. Clusters with profiles have a link to a page called "Cluster Figures" which will automatically pull the T, Z, and K graphs for that cluster. These graphs are stored within the folder called "figuresets", which has the same file structure as the ACCEPT2 folder that was given to me. For the global properties table, there is a folder that includes a cascade page for the global properties table, a non-cascade fullscreen HTML table, a raw MRT table, the raw csv, and the VOtable conesearch. For now this is the only table that is on the website. But using the tools detailed in the earlier section, additional tables can be easily created and added to cascade.
