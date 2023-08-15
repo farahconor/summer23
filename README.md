@@ -61,8 +61,8 @@ BCGs
  ┃ ┣ bcg_separation_vs_k0.ipynb: a jupyter notebook that generates a plot of angular separation vs k0
  ┃ ┗ bcg_separation_vs_k0.png: the generated graph saved as a png
  ┣ bcg_coords_compare
- ┃ ┣ bcg_coords_compare.ipynb: a jupyter notebook that calculates the angular separation and redshift difference for each BCG and creates a table
- ┃ ┗ bcg_coords_compare.csv: the saved table produced from the script above, including cluster name, angular separation, z difference, and k0
+ ┃ ┣ bcg_coords_compare.ipynb: a jupyter notebook that calculates the angular separation, redshift difference, and kpc distance/scale for each BCG and creates a table
+ ┃ ┗ bcg_coords_compare.csv: the saved table produced from the script above, including cluster name, angular separation, kpc distance/scale, z difference, and k0
  ┣ full_BCG_list.xlsx: the full list of BCGs, saved as an excel file
  ┗ BCG_bibtex.txt: all bibtex citations from the full_BCG_list.xlsx
  ```
