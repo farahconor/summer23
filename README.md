@@ -49,7 +49,7 @@ Classification System:
 For clusters with more than one BCG, an asterisk was added after the number, i.e. 1*  
 Some clusters have an 'x' instead of a number, as these are currently awaiting review from Professor Donahue
 
-In addition to fixing this list, I have performed some rudimentary. The file 'bcg_coords_compare.csv' includes the angular separation of each BCG from the cluster center as well as the difference in redshift. With this I produced a graph of angular separation versus entropy for clusters with entropy profiles:
+In addition to fixing this list, I have performed some rudimentary. The file 'bcg_coords_compare.csv' includes the angular separation of each BCG from the cluster center, the difference in redshift, and the kpc distance from BCG to cluster center. The kpc distance was calculated using astropy's 'FlatLambdaCDM' class, with constants H0=70km/sec/Mpc and Ωm0=0.27. With this I produced a graph of kpc distance versus entropy for clusters with entropy profiles, as well as histograms of the kpc distance distribution:
 
 ![angular sep vs entropy graph](https://github.com/farahconor/summer23/blob/main/BCGs/bcg_separation_vs_k0/bcg_separation_vs_k0.png)
 
