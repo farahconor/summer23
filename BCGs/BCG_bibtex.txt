@@ -4158,3 +4158,76 @@
 	adsurl = {https://ui.adsabs.harvard.edu/abs/2014MNRAS.444L..63F},
 	adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
+
+@ARTICLE{2022ApJ...925...68C,
+       author = {{Cho}, Hyejeon and {James Jee}, M. and {Smith}, Rory and {Finner}, Kyle and {Lee}, Wonki},
+        title = ""{Multiwavelength Analysis of A1240, the Double Radio-relic Merging Galaxy Cluster Embedded in an 80 Mpc-long Cosmic Filament}"",
+      journal = {\apj},
+     keywords = {9, 330, 353, 858, 1340, 1797, 1810, Astrophysics - Cosmology and Nongalactic Astrophysics, Astrophysics - Astrophysics of Galaxies},
+         year = 2022,
+        month = jan,
+       volume = {925},
+       number = {1},
+          eid = {68},
+        pages = {68},
+          doi = {10.3847/1538-4357/ac36c8},
+archivePrefix = {arXiv},
+       eprint = {2109.06879},
+ primaryClass = {astro-ph.CO},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2022ApJ...925...68C},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2011MNRAS.413.1333W,
+       author = {{Wegner}, Gary A.},
+        title = "{The double galaxy cluster Abell 2465 - I. Basic properties: optical imaging and spectroscopy}",
+      journal = {\mnras},
+     keywords = {galaxies: clusters: general, galaxies: clusters: individual: Abell 2465, Astrophysics - Cosmology and Nongalactic Astrophysics},
+         year = 2011,
+        month = may,
+       volume = {413},
+       number = {2},
+        pages = {1333-1352},
+          doi = {10.1111/j.1365-2966.2011.18218.x},
+archivePrefix = {arXiv},
+       eprint = {1101.1451},
+ primaryClass = {astro-ph.CO},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2011MNRAS.413.1333W},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2005AJ....130..445B,
+       author = {{Barr}, Jordi and {Davies}, Roger and {J{\o}rgensen}, Inger and {Bergmann}, Marcel and {Crampton}, David},
+        title = "{RX J0142.0+2131. I. The Galaxy Content of an X-Ray-luminous Galaxy Cluster at z = 0.28}",
+      journal = {\aj},
+     keywords = {Galaxies: Clusters: Individual: Alphanumeric: RX J0142.0+2131, Galaxies: Evolution, Galaxies: Stellar Content, Astrophysics},
+         year = 2005,
+        month = aug,
+       volume = {130},
+       number = {2},
+        pages = {445-474},
+          doi = {10.1086/431745},
+archivePrefix = {arXiv},
+       eprint = {astro-ph/0504069},
+ primaryClass = {astro-ph},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2005AJ....130..445B},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2011MNRAS.410.1797S,
+       author = {{Sanders}, J.~S. and {Fabian}, A.~C. and {Smith}, R.~K.},
+        title = "{Constraints on turbulent velocity broadening for a sample of clusters, groups and elliptical galaxies using XMM-Newton}",
+      journal = {\mnras},
+     keywords = {intergalactic medium, X-rays: galaxies: clusters, Astrophysics - Cosmology and Nongalactic Astrophysics},
+         year = 2011,
+        month = jan,
+       volume = {410},
+       number = {3},
+        pages = {1797-1812},
+          doi = {10.1111/j.1365-2966.2010.17561.x},
+archivePrefix = {arXiv},
+       eprint = {1008.3500},
+ primaryClass = {astro-ph.CO},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2011MNRAS.410.1797S},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
