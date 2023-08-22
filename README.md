@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This documentation is split up into three sections: Tools, Website, and BCG List. "Tools" details the coding tools I have created and provided and how to use them. "Website" details the structure of the ACCEPT2 website and how to make necessary changes or additions. "BCG List" details the final process of cleaning up the BCG list.
+This documentation is split up into three sections: Tools, Website, and BCG List. "Tools" details the coding tools I have created and provided and how to use them. "Website" details the structure of the ACCEPT2 website and how to make necessary changes or additions. "BCG List" details the final process of cleaning up the BCG list. For information about jupyter notebooks and the versions of python/modules used, see the appendix.
 
 ## Tools
 
@@ -67,8 +67,24 @@ BCGs
  ┗ BCG_bibtex.txt: all bibtex citations from the full_BCG_list.xlsx
  ```
 
-# Website
+## Website
 
 As of now, the website consists of a MC2 homepage with a list of projects which right now lists ACCEPT1 (which is just a link to the old accept website) and ACCEPT2. ACCEPT2 is then stored entirely within a folder, which can allow you to add additonal projects to the MC2 site without having them interfere. ACCEPT2 then has it's own homepage (I still need to add information about the project). There is then a page called "Cluster Index" which includes a list of each cluster, its coordinates, and whether or not it has global properties, a profile, morphology, and in ACCEPT1. Clusters with profiles have a link to a page called "Cluster Figures" which will automatically pull the T, Z, and K graphs for that cluster. These graphs are stored within the folder called "figuresets", which has the same file structure as the ACCEPT2 folder that was given to me. For the global properties table, there is a folder that includes a cascade page for the global properties table, a non-cascade fullscreen HTML table, a raw MRT table, the raw csv, and the VOtable conesearch. For now this is the only table that is on the website. But using the tools detailed in the earlier section, additional tables can be easily created and added to cascade.
 
 The image header for the website is from the Chandra website: https://chandra.harvard.edu/photo/2017/a3411/. I added a colorful "ACCEPT2.0" to the homepage version of the image. Image credit is provided on the homepage, but not elsewhere (Cascade doesn't have a good way to add an image credit, I might manually add it to the image to make sure credit is properly given no matter what page the user is on) 
+
+## Appendix
+
+This project uses jupyter notebooks for all python code. If you are unfamiliar with using jupyter notebooks, here is a basic tutorial on getting started with using them: https://youtu.be/WUeBzT43JyY?si=Bh36mK7ki5MjaVpt
+
+The following versions of python/modules were used for this project:
+
+```
+python==3.9.13
+astropy==5.1
+pandas==1.4.4
+numpy==1.21.5
+matplotlib==3.5.2
+```
+
+Later versions should work in theory.
