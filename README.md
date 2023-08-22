@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This documentation is split up into three sections: Tools, Website, and BCG List. "Tools" details the coding tools I have created and provided and how to use them. "Website" details the structure of the ACCEPT2 website and how to make necessary changes or additions. "BCG List" details the final process of cleaning up the BCG list. For information about jupyter notebooks and the versions of python/modules used, see the appendix.
+This documentation is split up into three sections: Tools, Website, and BCG List. "Tools" details the coding tools I have created and provided and how to use them. "Website" details the structure of the ACCEPT2 website and how to make necessary changes or additions. "BCG List" details the final process of cleaning up the BCG list. For information about jupyter notebooks, the versions of python/modules used, or how to download this repository, see the appendix.
 
 ## Tools
 
@@ -74,6 +74,8 @@ As of now, the website consists of a MC2 homepage with a list of projects which 
 The image header for the website is from the Chandra website: https://chandra.harvard.edu/photo/2017/a3411/. I added a colorful "ACCEPT2.0" to the homepage version of the image. Image credit is provided on the homepage, but not elsewhere (Cascade doesn't have a good way to add an image credit, I might manually add it to the image to make sure credit is properly given no matter what page the user is on) 
 
 ## Appendix
+
+If you are unfamiliar with using git or github and just want to download the latest version of this repository, click the green "Code" button near the top of the page, and click "Download ZIP".
 
 This project uses jupyter notebooks for all python code. If you are unfamiliar with using jupyter notebooks, here is a basic tutorial on getting started with using them: https://youtu.be/WUeBzT43JyY?si=Bh36mK7ki5MjaVpt
 
