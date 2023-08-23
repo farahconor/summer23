@@ -1,0 +1,11 @@
+{
+    "RA_h": "RAh",
+    "RA_m": "RAm",
+    "RA_s": "RAs",
+    "DecSign": "DE-",
+    "DecAbsDeg": "DEd",
+    "DEC_m": "DECm",
+    "DEC_s": "DECs",
+    "RA_deg": "RAdeg",
+    "DEC_deg": "DECdeg"
+}
