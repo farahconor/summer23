@@ -3,7 +3,7 @@
 // TODO: Review units
 // TODO: fix descriptions
 
-$file_name = "globalTestFormat.csv"
+$file_name = "global_properties.csv"
 $RA_index = 8
 $DEC_index = 9
 
@@ -182,7 +182,7 @@ if ($errorFlags==""){ // if there are no errors, proceedes normally, otherwise d
 $xml->end(); // step 4
 
 exit;
-?>(); // step 4
+?>); // step 4
 
 exit;
 ?>
