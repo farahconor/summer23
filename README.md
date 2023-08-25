@@ -1,4 +1,17 @@
-# Summer 23 Research Documentation
+<h1 align="center">
+  <br>
+  <br>
+  Summer 23 Research Documentation
+  <br>
+</h1>
+
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#tools">Tools</a> •
+  <a href="#bcg-list">BCG List</a> •
+  <a href="#website">Website</a> •
+  <a href="#appendix">Appendix</a>
+</p>
 
 ## Introduction
 
