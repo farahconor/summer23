@@ -81,7 +81,41 @@ BCGs
 
 ## Website
 
-As of now, the website consists of a MC2 homepage with a list of projects which right now lists ACCEPT1 (which is just a link to the old accept website) and ACCEPT2. ACCEPT2 is then stored entirely within a folder, which can allow you to add additonal projects to the MC2 site without having them interfere. ACCEPT2 then has it's own homepage (I still need to add information about the project). There is then a page called "Cluster Index" which includes a list of each cluster, its coordinates, and whether or not it has global properties, a profile, morphology, and in ACCEPT1. Clusters with profiles have a link to a page called "Cluster Figures" which will automatically pull the T, Z, and K graphs for that cluster. These graphs are stored within the folder called "figuresets", which has the same file structure as the ACCEPT2 folder that was given to me. For the global properties table, there is a folder that includes a cascade page for the global properties table, a non-cascade fullscreen HTML table, a raw MRT table, the raw csv, and the VOtable conesearch. For now this is the only table that is on the website. But using the tools detailed in the earlier section, additional tables can be easily created and added to cascade.
+As of now, the website consists of a MC2 homepage with a list of projects which right now lists ACCEPT1 (which is just a link to the old accept website) and ACCEPT2. ACCEPT2 is then stored entirely within a folder, which can allow you to add additonal projects to the MC2 site without having them interfere. ACCEPT2 then has it's own homepage. There is then a page called "Cluster Index" which includes a list of each cluster, its coordinates, and whether or not it has global properties, a profile, morphology, and in ACCEPT1. Clusters with profiles have a link to a page called "Cluster Figures" which will automatically pull the T, Z, and K graphs for that cluster as well as a link to the projected profile .dat file for the cluster. These graphs are stored within the folder called "figuresets", which has the same file structure as the ACCEPT2 folder that was given to me. For the global properties table and deprojected profiles table, there is a folder that includes a cascade page for the table (which has links to all formats for the table), a non-cascade fullscreen HTML table, a raw MRT table, the raw csv, and the VOtable conesearch. Using the tools detailed in the earlier section, additional tables can be easily created and added to cascade.
+
+A note about the full screen html table: the tools output a raw html table, however the website html table actually has a bit of code added so that it can have a basic search function. In order to add this to the full screen version, open the table with a text editor, delete the first line, and paste the following in its place:
+
+```
+<head>
+    <meta charset="utf-8"/>
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-type"/>
+    <style>
+  body {font-family: sans-serif;}
+  table.dataTable {width: auto !important; margin: 0 !important;}
+  .dataTables_filter, .dataTables_paginate {float: left !important; margin-left:1em}
+    </style>
+    <link href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js">
+    </script>
+    <script src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js">
+    </script>
+   </head>
+   <body>
+    <script>
+  $(document).ready(function() {
+      $('#table').dataTable({
+	  "iDisplayLength": '500'
+      });
+  } );  </script>
+
+<table class="display compact" id="table">
+```
+
+In order to make the table display properly within the cascade page, paste the raw html table into a content section, and add this line to the top so that the table has a scroll bar:
+
+```
+<div style="overflow-x: auto;">
+```
 
 The image header for the website is from the Chandra website: https://chandra.harvard.edu/photo/2017/a3411/. I added a colorful "ACCEPT2.0" to the homepage version of the image. Image credit is provided on the homepage, but not elsewhere (Cascade doesn't have a good way to add an image credit, I might manually add it to the image to make sure credit is properly given no matter what page the user is on) 
 
@@ -101,4 +135,4 @@ numpy==1.21.5
 matplotlib==3.5.2
 ```
 
-Later versions should work in theory.
+Later versions may work, but in the event of unsual errors, try it again on these versions.
