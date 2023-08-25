@@ -6,10 +6,10 @@ This documentation is split up into three sections: Tools, Website, and BCG List
 
 ## Tools
 
-As of now, there are three main tools: 
-"figureset_maker.ipynb", a jupyter notebook that is used to create an AAS figureset for each cluster; 
-"cluster_pointers.ipynb", a jupyter notebook that creates an html table with the name of each cluster, its coordinates and redshift, and whether or not it has global properties, profiles, morphology, and in ACCEPT1, this is used as a sort of index page for the ACCEPT2 website; 
-"table_generate.ipynb", a jupyter notebook that takes a csv and returns both an HTML and MRT table. usage documentation is contained within the notebook
+As of now, there are three main tools:  
+"figureset_maker.ipynb", a jupyter notebook that is used to create an AAS figureset for each cluster;  
+"cluster_pointers.ipynb", a jupyter notebook that creates an html table with the name of each cluster, its coordinates and redshift, and whether or not it has global properties, profiles, morphology, and in ACCEPT1, this is used as a sort of index page for the ACCEPT2 website;  
+"table_generate.ipynb", a jupyter notebook that takes a csv and returns an HTML table, MRT table, and VOTable conesearch. usage documentation is contained within the notebook.
 
 The file structure within the tools folder and explanation of the tools is as follows:
 
